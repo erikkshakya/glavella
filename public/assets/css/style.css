@@ -161,6 +161,8 @@
 #about p {
   font-size: 1rem;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 #about .btn-about {
   outline: none;
@@ -255,7 +257,6 @@
   position: absolute;
   bottom: -1.5rem;
   left: 50%;
-  -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   height: 0.3rem;
   width: 60%;
@@ -295,21 +296,18 @@
   text-align: center;
   color: #fff;
   opacity: 0;
-  -webkit-transform: translateY(12rem);
   transform: translateY(12rem);
   padding: 0 0.4rem;
 }
 
 #course .box-container .box:hover p {
   opacity: 1;
-  -webkit-transform: translateY(0rem);
   transform: translateY(0rem);
 }
 
 #course .box-container .box:hover img {
   height: 25%;
   width: 25%;
-  -webkit-transform: translateY(-2rem);
   transform: translateY(-2rem);
 }
 
@@ -420,10 +418,8 @@
   content: '"';
   font-size: 40px;
   color: #d99c4e;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Lato", sans-serif;
   transform: rotate(180deg);
-  -ms-transform: rotate(180deg); /* IE 9 */
-  -webkit-transform: rotate(180deg); /* Opera, Chrome, and Safari */
   line-height: 0;
 }
 
@@ -434,7 +430,7 @@
   content: '"';
   font-size: 40px;
   color: #d99c4e;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Lato", sans-serif;
   line-height: 0;
 }
 
